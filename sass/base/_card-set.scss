@@ -1,0 +1,19 @@
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.card__list {
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  background: var(--card-bg);
+  box-sizing: border-box;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.card {
+  background: var(--card-bg);
+  padding: 20px 24px 20px 24px;
+  border: 1px solid var(--card-border-bg);
+  border-top: none;
+}

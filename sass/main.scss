@@ -1,0 +1,36 @@
+// utils //
+@import "./utils/variables";
+// base //
+@import "./base/container";
+@import "./base/fonts";
+@import "./base/common";
+@import "./base/card-set";
+
+// components //
+
+@import "./components/addres";
+@import "./components/menu";
+@import "./components/logo";
+@import "./components/label";
+@import "./components/button";
+@import "./components/titel";
+@import "./components/socials";
+@import "./components/form";
+@import "./components/company";
+@import "./components/overlay";
+@import "./components/modal";
+
+// layout //
+
+@import "./layout/sections";
+@import "./layout/price";
+@import "./layout/navigation";
+@import "./layout/hero";
+@import "./layout/product";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/work";
+@import "./layout/footer";
+
+
+@import "./layout/heder";

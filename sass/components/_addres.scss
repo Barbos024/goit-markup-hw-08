@@ -1,0 +1,21 @@
+.address__list {
+  display: flex;
+}
+
+.address__item {
+  margin-right: 50px;
+}
+
+.address__link {
+  font-style: inherit;
+  letter-spacing: 0.03em;
+  color: var(--alt-text-cl);
+  display: flex;
+  align-items: center;
+}
+
+.address__icon {
+  fill: currentColor;
+
+  margin-right: 10px;
+}
