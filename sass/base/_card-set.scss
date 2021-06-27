@@ -3,17 +3,42 @@
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  justify-content: center;
 }
 .card__list {
-  flex-basis: calc((100% - 3 * 30px) / 3);
   background: var(--card-bg);
   box-sizing: border-box;
   margin-left: 30px;
   margin-top: 30px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    max-width: 450px;
+    justify-content: start;
+    flex-basis: calc((100% - 2 * 30px) / 2);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 199.98px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 3 * 30px) / 3);
+  }
 }
 .card {
   background: var(--card-bg);
   padding: 20px 24px 20px 24px;
   border: 1px solid var(--card-border-bg);
   border-top: none;
+  width: 450;
+  height: 110;
+
+  @media screen and (min-width: 768px) {
+    height: 146px;
+    width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 110px;
+    width: 370px;
+  }
 }

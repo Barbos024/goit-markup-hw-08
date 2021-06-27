@@ -1,17 +1,33 @@
 .address__list {
-  display: flex;
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: inline;
+  }
+  @media screen and (min-width: 1200px) {
+    display: inline-flex;
+  }
 }
 
 .address__item {
-  margin-right: 50px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 50px;
+  }
 }
 
 .address__link {
   font-style: inherit;
   letter-spacing: 0.03em;
   color: var(--alt-text-cl);
-  display: flex;
-  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    display: inline-flex;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .address__icon {
