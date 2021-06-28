@@ -878,20 +878,20 @@ ul {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/gallery/desktop/hero/hero.jpg);
+  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/gallery/desktop/hero/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 @media screen and (max-width: 480px) {
   .hero {
-    background-image: url(../images/gallery/mobile/hero/hero.jpg);
+    background-image: url(./images/gallery/mobile/hero/hero.jpg);
   }
 }
 
 @media screen and (max-width: 768px) {
   .hero {
-    background-image: url(../images/gallery/tablet/hero/hero.jpg);
+    background-image: url(./images/gallery/tablet/hero/hero.jpg);
   }
 }
 
